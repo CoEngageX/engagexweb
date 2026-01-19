@@ -1,49 +1,121 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import { useState } from 'react'
 import Button from './Button'
-import { useState } from 'react' // Add this import
+import Logo from"/Logo.png"
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false)
+
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'Events', path: '/events' },
-    { name: 'Jobs', path: '/jobs' },
+    { name: 'Sponsors', path: '/sponsors' },
     { name: 'About', path: '/about' },
+    { name: 'Contact', path: '/contact' },
   ]
 
-  const [activeItem, setActiveItem] = useState(null) // Add this state
-
   return (
-    <header className="sticky top-0 z-50 bg-gray-900 shadow-md">
-      <div className="section-padding flex justify-between items-center">
-        <div className="flex items-center space-x-2">
-          <div className="w-10 h-10 bg-[#FDB913] rounded-lg"></div>
-          <span className="text-2xl font-bold text-[#FDB913]">CoEngageX</span>
+    <header className="top-0 z-50 bg-[#252B37] shadow-md">
+      <div className="px-3 flex justify-between items-center">
+        {/* Logo */}
+        <div className="flex items-center justify-center">
+            <img
+          src={Logo}
+          alt="Logo"
+          className="w-30 h-30 object-contains"
+        />
         </div>
-        
-        <nav className="hidden md:flex space-x-8">
+
+        {/* Desktop Nav */}
+        <nav className="hidden md:flex space-x-2">
           {navItems.map((item) => (
-            <Link
+            <NavLink
               key={item.name}
               to={item.path}
-              className={`text-white hover:text-[#FDB913] font-medium transition-colors px-3 py-2 rounded ${
-                activeItem === item.name ? 'bg-[#FDB913] text-[#252B37]' : 'hover:bg-[#FDB913] hover:text-[#252B37]'
-              }`}
-              onClick={() => setActiveItem(item.name)}
+              className={({ isActive }) =>
+                `text-white font-medium transition-colors px-3 py-2 rounded ${
+                  isActive
+                    ? 'bg-[#FDB913] text-black'
+                    : 'hover:bg-[#FDB913] hover:text-black'
+                }`
+              }
             >
               {item.name}
-            </Link>
+            </NavLink>
           ))}
         </nav>
-        
-        <div className="flex items-center space-x-4">
-          <Button className="bg-[#FDB913] text-[#252B37] hover:bg-white font-semibold px-4 py-2 rounded-lg transition-colors">
+
+        {/* Desktop Buttons */}
+        <div className="hidden md:flex items-center space-x-4">
+          {/* <Button className="bg-[#FDB913] text-black hover:bg-[#ddcb9d] font-semibold px-4 py-2 rounded-lg">
             Sign Up
-          </Button>
-          <Button className="bg-white text-[#252B37] hover:bg-[#FDB913] font-semibold px-4 py-2 rounded-lg transition-colors">
+          </Button> */}
+          <Button className="bg-white text-black hover:bg-[#FDB913] font-semibold px-4 py-2 rounded-lg">
             Log in
           </Button>
         </div>
+
+        {/* Mobile Menu Button */}
+        <button
+          className="md:hidden text-white focus:outline-none"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          <svg
+            className="w-7 h-7"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+          >
+            {menuOpen ? (
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            ) : (
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            )}
+          </svg>
+        </button>
       </div>
+
+      {/* Mobile Menu */}
+      {menuOpen && (
+        <div className="md:hidden bg-[#252B37] border-t border-gray-700 ">
+          <nav className="flex flex-col px-6 py-4 space-y-3">
+            {navItems.map((item) => (
+              <NavLink
+                key={item.name}
+                to={item.path}
+                onClick={() => setMenuOpen(false)}
+                className={({ isActive }) =>
+                  `text-white font-medium px-3 py-2 rounded ${
+                    isActive
+                      ? 'bg-[#FDB913] text-black'
+                      : 'hover:bg-[#FDB913] hover:text-black'
+                  }`
+                }
+              >
+                {item.name}
+              </NavLink>
+            ))}
+
+            <div className="pt-4 flex flex-col space-y-3">
+              <Button className="bg-[#FDB913] text-black font-semibold py-2 rounded-lg">
+                Log in
+              </Button>
+              {/* <Button className="bg-white text-black font-semibold py-2 rounded-lg">
+                Log in
+              </Button> */}
+            </div>
+          </nav>
+        </div>
+      )}
     </header>
   )
 }
