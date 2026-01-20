@@ -9,11 +9,9 @@ const Footer = () => {
   const quickLinks = [
     { name: 'Home', path: '/' },
     { name: 'Events', path: '/events' },
-    { name: 'Jobs', path: '/jobs' },
-    { name: 'About', path: '/about' },
-    { name: 'Contact', path: '/contact' },
-    { name: 'Privacy', path: '/privacy' },
-    { name: 'Terms', path: '/terms' },
+    { name: 'Sponsors', path: '/sponsors' },
+    { name: 'About Us', path: '/about' },
+    { name: 'Contact Us', path: '/contact' },
   ];
 
   return (
@@ -101,7 +99,7 @@ const Footer = () => {
                   className={({ isActive }) =>
                     `text-white font-medium transition-colors px-3 py-1 rounded ${
                       isActive
-                        ? 'bg-[#FDB913] text-black'
+                        ? 'bg-[#FDB913] !text-black'
                         : 'hover:bg-[#FDB913] hover:text-black'
                     }`
                   }

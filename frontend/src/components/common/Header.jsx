@@ -35,7 +35,7 @@ const Header = () => {
               className={({ isActive }) =>
                 `text-white font-medium transition-colors px-3 py-2 rounded ${
                   isActive
-                    ? 'bg-[#FDB913] text-black'
+                    ? 'bg-[#FDB913] !text-black'
                     : 'hover:bg-[#FDB913] hover:text-black'
                 }`
               }
@@ -96,7 +96,7 @@ const Header = () => {
                 className={({ isActive }) =>
                   `text-white font-medium px-3 py-2 rounded ${
                     isActive
-                      ? 'bg-[#FDB913] text-black'
+                      ? 'bg-[#FDB913] !text-black'
                       : 'hover:bg-[#FDB913] hover:text-black'
                   }`
                 }
