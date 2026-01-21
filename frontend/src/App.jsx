@@ -3,7 +3,7 @@ import Layout from './components/layout/Layout'
 import Sponsors from './pages/Sponsors'
 import Home from './pages/Home'
 import Events from './pages/Events'
-import Jobs from './pages/Jobs'
+import Contact from './pages/Contact'
 import About from './pages/About'
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} />
           <Route path="/sponsors" element={<Sponsors />} />
-          <Route path="/jobs" element={<Jobs />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </Layout>
