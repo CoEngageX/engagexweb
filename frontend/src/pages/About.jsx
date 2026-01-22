@@ -76,7 +76,7 @@ const About = () => {
      <img
         src={Flier}
         alt="Event Flier"
-        className="w-full 2xl:h-[350px] h-auto"
+        className="w-full max-h-[400px] h-auto"
       />
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">

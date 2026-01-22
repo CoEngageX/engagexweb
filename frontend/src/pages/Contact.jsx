@@ -1,6 +1,32 @@
 import { FiPhone, FiMail, FiMapPin } from "react-icons/fi";
 import { FaLinkedinIn, FaTwitter, FaInstagram, FaFacebookF, FaYoutube, FaTiktok } from "react-icons/fa";
 
+const contactInfo = [
+  {
+    id: 1,
+    type: "phone",
+    value: "+1012 3456 789",
+    link: "tel:+10123456789",
+    icon: FiPhone,
+  },
+  {
+    id: 2,
+    type: "email",
+    value: "demo@gmail.com",
+    link: "mailto:demo@gmail.com",
+    icon: FiMail,
+  },
+  {
+    id: 3,
+    type: "address",
+    value:
+      "132 Dartmouth Street, Boston, Massachusetts 02156, United States",
+    link:
+      "https://www.google.com/maps/search/?api=1&query=132+Dartmouth+Street+Boston",
+    icon: FiMapPin,
+  },
+];
+
 function Contact() {
   return (
     <div className=" p-10 grid grid-cols-1 md:grid-cols-2 gap-10 max-w-7xl mx-auto pb-20">
@@ -16,36 +42,28 @@ function Contact() {
 
 
             {/* Contact Details */}
-            <div className="space-y-5 text-sm md:text-base">
+             <div className="text-white space-y-6">               
+                {/* Contact Items */}
+                <div className="space-y-5">
+                    {contactInfo.map((item) => {
+                    const Icon = item.icon;
 
-                {/* Phone */}
-                <div className="flex items-center gap-4">
-                <div className=" flex items-center justify-center">
-                    <FiPhone className="text-lg" />
+                    return (
+                        <a
+                        key={item.id}
+                        href={item.link}
+                        target={item.type === "address" ? "_blank" : "_self"}
+                        rel="noopener noreferrer"
+                        className="flex items-start gap-4 hover:text-[#FDB913] transition"
+                        >
+                        <Icon className="text-lg mt-1" />
+                        <span className="text-sm leading-relaxed">
+                            {item.value}
+                        </span>
+                        </a>
+                    );
+                    })}
                 </div>
-                <span className="text-sm">+1012 3456 789</span>
-                </div>
-
-                {/* Email */}
-                <div className="flex items-center gap-4">
-                <div className="flex items-center justify-center">
-                    <FiMail className="text-lg" />
-                </div>
-                <span className="text-sm">demo@gmail.com</span>
-                </div>
-
-                {/* Address */}
-                <div className="flex items-start gap-4">
-                <div className="flex items-center justify-center mt-1">
-                    <FiMapPin className="text-lg" />
-                </div>
-                <span className="text-sm">
-                    132 Dartmouth Street 
-                    Boston, Massachusetts 02156 <br />
-                    United States
-                </span>
-                </div>
-
             </div>
             <div className="flex flex-wrap gap-2">
                 <a href="#" aria-label="LinkedIn" className="w-9 h- flex items-center justify-center rounded-full bg-gray-800 hover:bg-[#0A66C2] transition-colors">
