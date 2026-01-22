@@ -19,7 +19,7 @@ const EventsPrograms = () => {
             <img
               src={Flier}
               alt="Event Flier"
-              className="w-full 2xl:h-[350px] h-auto rounded-lg"
+              className="w-full max-h-[400px] h-auto rounded-lg"
             />
           </div>
 

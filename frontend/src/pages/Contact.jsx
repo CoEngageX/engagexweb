@@ -30,7 +30,7 @@ const contactInfo = [
 function Contact() {
   return (
     <div className=" p-10 grid grid-cols-1 md:grid-cols-2 gap-10 max-w-7xl mx-auto pb-20">
-        <div className="max-w-sm bg-[#252B37] text-white rounded-lg p-8 space-y-20 pb-2">
+        <div className="max-w-md bg-[#252B37] text-white rounded-lg p-8 space-y-20 pb-2">
   
             {/* Title */}
             <div>

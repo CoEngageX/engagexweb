@@ -145,9 +145,11 @@ function Sponsors() {
                 <span className="text-[#FDB913]">an Unforgettable</span>{" "}
                 <br />
                 Event
-                <button className="inline-flex ml-10 bg-[#FDB913] text-black px-3 py-1 text-sm rounded-lg font-semibold hover:bg-[#ddcb9d] transition">
-                     Preregister Now
-                </button>
+               <a href="https://luma.com/f3fpygbt" target="_blank" rel="noopener noreferrer">
+                    <button className="inline-flex ml-10 bg-[#FDB913] text-black px-3 py-1 text-sm rounded-lg font-semibold hover:bg-[#ddcb9d] transition">
+                         Preregister Now
+                    </button>
+               </a>
                 </p>                
             </div>
             <div className='mx-auto flex justify-center items-center pt-10'>

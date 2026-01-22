@@ -24,7 +24,7 @@ const EventHighlights = () => {
             <img
               src={event.coverImage}
               alt={event.eventName}
-              className="w-full h-auto  2xl:h-[400px] rounded-lg"
+              className="w-full h-auto  max-h-[400px] rounded-lg"
             />
           </div>
 

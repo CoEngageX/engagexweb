@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import { useState } from 'react'
 import Button from './Button'
 import Logo from"/Logo.png"
@@ -50,9 +50,20 @@ const Header = () => {
           {/* <Button className="bg-[#FDB913] text-black hover:bg-[#ddcb9d] font-semibold px-4 py-2 rounded-lg">
             Sign Up
           </Button> */}
-          <Button className="bg-white text-black hover:bg-[#FDB913] font-semibold px-4 py-2 rounded-lg">
-            Log in
-          </Button>
+          <NavLink
+            to="/login"
+            className={({ isActive }) =>
+              `rounded-lg transition-colors ${
+                isActive
+                  ? 'bg-[#FDB913] text-black'
+                  : 'bg-white text-black hover:bg-[#FDB913]'
+              }`
+            }
+          >
+            <Button className="font-semibold px-4 py-2">
+              Log in
+            </Button>
+          </NavLink>
         </div>
 
         {/* Mobile Menu Button */}
@@ -106,12 +117,21 @@ const Header = () => {
             ))}
 
             <div className="pt-4 flex flex-col space-y-3">
-              <Button className="bg-[#FDB913] text-black font-semibold py-2 rounded-lg">
-                Log in
-              </Button>
-              {/* <Button className="bg-white text-black font-semibold py-2 rounded-lg">
-                Log in
-              </Button> */}
+              <NavLink
+                to="/login"
+                onClick={() => setMenuOpen(false)}
+                className={({ isActive }) =>
+                  `rounded-lg transition-colors ${
+                    isActive
+                      ? 'bg-[#FDB913] text-black'
+                      : 'bg-white text-black'
+                  }`
+                }
+              >
+                <Button className="w-full font-semibold py-2">
+                  Log in
+                </Button>
+              </NavLink>
             </div>
           </nav>
         </div>
