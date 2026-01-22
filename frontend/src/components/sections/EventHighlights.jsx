@@ -40,7 +40,7 @@ const EventHighlights = () => {
             </ol>
             <p className="text-sm font-bold">Time: {event.date}</p>
             <p className="text-sm font-bold">Theme: {event.theme}</p>
-           <a href="https://luma.com/f3fpygbt">
+           <a href="https://luma.com/f3fpygbt" target="_blank" rel="noopener noreferrer">
             <button className="mt-4 bg-[#FDB913] text-black px-4 py-2 rounded-lg font-semibold hover:bg-[#ddcb9d] w-[100%] md:w-[70%]">Preregister Now</button>
            </a>
           </div>
