@@ -43,7 +43,7 @@ const Events = () => {
         Grow Your Network & Skill With Our Events
       </h1>
 
-      {/* ================= FEATURED EVENT (ALWAYS TOP) ================= */}
+      {/* main events*/}
       <div className="border border-gray-300 p-3 rounded-lg space-y-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
           <div>
@@ -69,12 +69,14 @@ const Events = () => {
             <p className="text-sm font-bold">Theme: {featuredEvent.theme}</p>
           </div>
         </div>
-        <button className="bg-[#FDB913] text-black px-4 py-2 rounded-lg font-semibold hover:bg-[#ddcb9d] w-[100%] md:w-[70%] flex justify-center items-center mx-auto">
-          Preregister Now
-        </button>
+        <a href={featuredEvent.registrationLink} target="_blank" rel="noopener noreferrer">
+          <button className="bg-[#FDB913] text-black px-4 py-2 rounded-lg font-semibold hover:bg-[#ddcb9d] w-[100%] md:w-[70%] flex justify-center items-center mx-auto">
+            Preregister Now
+          </button>
+        </a>
       </div>
 
-      {/* ================= OTHER EVENTS (COMPACT + EXPANDABLE) ================= */}
+      {/* other events */}
       <div className="space-y-6">
         <h2 className="text-xl font-semibold bg-[#FDB913] text-black px-4 py-2 w-fit rounded-lg">
           Other Events
@@ -103,9 +105,14 @@ const Events = () => {
                   </div>
 
                   <div className="flex flex-col gap-2 w-full md:w-auto">
-                    <button className="bg-[#FDB913] text-black px-4 py-2 rounded-lg font-semibold hover:bg-[#ddcb9d]">
+                    <a 
+                      href={event.registrationLink} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-[#FDB913] text-black px-4 py-2 rounded-lg font-semibold hover:bg-[#ddcb9d] inline-block text-center"
+                    >
                       Buy a ticket
-                    </button>
+                    </a>
                     <button
                       onClick={() => toggleExpand(event.id)}
                       className="text-[#FDB913] px-4 py-2 font-semibold hover:text-black"
