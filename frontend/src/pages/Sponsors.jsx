@@ -34,7 +34,7 @@ function Sponsors() {
                     <a href='mailto:Partnership@coengagex.com'>
                         <Button className='bg-[#FDB913] hover:bg-[#ddcb9d] text-sm text-black'>REQUEST SPONSORSHIP DECK</Button>
                     </a>
-                    <a href='#'>
+                    <a href='mailto:Partnership@coengagex.com'>
                         <Button className='text-[#FDB913] bg-black text-sm hover:bg-gray-800'>REQUEST EXHIBITION DECK</Button>
                     </a>
                 </div>
