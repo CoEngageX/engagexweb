@@ -1,4 +1,5 @@
 import {FaCheck} from 'react-icons/fa';
+import {Link} from 'react-router-dom'
 import Flier from"/Fliers/Frame 829.png"
 
 const items = [
@@ -18,7 +19,7 @@ const EventsPrograms = () => {
             <img
               src={Flier}
               alt="Event Flier"
-              className="w-full 2xl:h-[350px] h-auto rounded-lg"
+              className="w-full max-h-[400px] h-auto rounded-lg"
             />
           </div>
 
@@ -37,7 +38,9 @@ const EventsPrograms = () => {
               ))}
             </ul>
 
-            <button className="mt-4 bg-[#FDB913] text-black px-4 py-2 rounded-lg font-semibold hover:bg-[#ddcb9d] w-[100%] md:w-[70%]">View Upcoming Events & Programs </button>
+            <Link to="/events">
+               <button className="mt-4 bg-[#FDB913] text-black px-4 py-2 rounded-lg font-semibold hover:bg-[#ddcb9d] w-[100%] md:w-[70%]">View Upcoming Events & Programs </button>
+            </Link>
           </div>
 
         </div>
