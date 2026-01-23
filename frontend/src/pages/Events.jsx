@@ -45,7 +45,7 @@ const Events = () => {
 
       {/* main events*/}
       <div className="border border-gray-300 p-3 rounded-lg space-y-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-20 gap-10 items-center">
           <div>
             <img
               src={featuredEvent.coverImage}
@@ -54,26 +54,22 @@ const Events = () => {
             />
           </div>
 
-          <div className="flex-1">
-            <h3 className="text-xl font-bold">{featuredEvent.eventName}</h3>
-            <p className="mb-4">{featuredEvent.description}</p>
-
-            <h4 className="font-bold">Core Sessions:</h4>
-            <ol className="list-decimal list-inside">
+          <div className="flex-1 order-2 md:order-1">
+            <h3 className="text-xl font-bold mb-2">{featuredEvent.eventName}</h3>
+            <p className=" mb-4 max-w-md">{featuredEvent.description}</p>
+            <h4 className="font-bold mb-2">Core Sessions:</h4>
+            <ol className="list-decimal list-inside mb-4">
               {featuredEvent.coreSessions.map((session, index) => (
                 <li key={index}>{session}</li>
               ))}
             </ol>
-
-            <p className="text-sm font-bold mt-4">Time: {featuredEvent.date}</p>
+            <p className="text-sm font-bold">Time: {featuredEvent.date}</p>
             <p className="text-sm font-bold">Theme: {featuredEvent.theme}</p>
+           <a href="https://luma.com/f3fpygbt" target="_blank" rel="noopener noreferrer">
+            <button className="mt-4 bg-[#FDB913] text-black px-4 py-2 rounded-lg font-semibold hover:bg-[#ddcb9d] w-[100%] md:w-[70%]">Preregister Now</button>
+           </a>
           </div>
         </div>
-        <a href={featuredEvent.registrationLink} target="_blank" rel="noopener noreferrer">
-          <button className="bg-[#FDB913] text-black px-4 py-2 rounded-lg font-semibold hover:bg-[#ddcb9d] w-[100%] md:w-[70%] flex justify-center items-center mx-auto">
-            Preregister Now
-          </button>
-        </a>
       </div>
 
       {/* other events */}

@@ -36,7 +36,7 @@ const Header = () => {
                 `text-white font-medium transition-colors px-3 py-2 rounded ${
                   isActive
                     ? 'bg-[#FDB913] !text-black'
-                    : 'hover:bg-[#FDB913] hover:text-black'
+                    : 'hover:bg-[#ddcb9d] hover:text-black'
                 }`
               }
             >
@@ -47,9 +47,6 @@ const Header = () => {
 
         {/* Desktop Buttons */}
         <div className="hidden md:flex items-center space-x-4">
-          {/* <Button className="bg-[#FDB913] text-black hover:bg-[#ddcb9d] font-semibold px-4 py-2 rounded-lg">
-            Sign Up
-          </Button> */}
           <NavLink
             to="/login"
             className={({ isActive }) =>
@@ -108,7 +105,7 @@ const Header = () => {
                   `text-white font-medium px-3 py-2 rounded ${
                     isActive
                       ? 'bg-[#FDB913] !text-black'
-                      : 'hover:bg-[#FDB913] hover:text-black'
+                      : 'hover:bg-[#ddcb9d] hover:text-black'
                   }`
                 }
               >
