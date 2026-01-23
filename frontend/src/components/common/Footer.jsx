@@ -63,22 +63,22 @@ const Footer = () => {
             {/* Social Media */}
             <div>
               <div className="flex flex-wrap gap-3">
-                <a href="#" aria-label="LinkedIn" className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-800 hover:bg-[#0A66C2] transition-colors">
+                <a href="https://www.linkedin.com/company/coengagex/" aria-label="LinkedIn" className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-800 hover:bg-[#0A66C2] transition-colors">
                   <FaLinkedinIn className="text-white text-sm" />
                 </a>
-                <a href="#" aria-label="X" className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-800 hover:bg-black transition-colors">
+                <a href="https://x.com/CoEngageX" aria-label="X" className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-800 hover:bg-black transition-colors">
                   <FaTwitter className="text-white text-sm" />
                 </a>
-                <a href="#" aria-label="Instagram" className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-800 hover:bg-[#E4405F] transition-colors">
+                <a href="https://www.instagram.com/coengagex?igsh=ZGx4cjVwY2Fzcmpx&utm_source=qr" aria-label="Instagram" className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-800 hover:bg-[#E4405F] transition-colors">
                   <FaInstagram className="text-white text-sm" />
                 </a>
-                <a href="#" aria-label="Facebook" className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-800 hover:bg-[#1877F2] transition-colors">
+                <a href="https://www.facebook.com/share/18CoWuuFRE/?mibextid=wwXIfr" aria-label="Facebook" className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-800 hover:bg-[#1877F2] transition-colors">
                   <FaFacebookF className="text-white text-sm" />
                 </a>
                 <a href="#" aria-label="YouTube" className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-800 hover:bg-[#FF0000] transition-colors">
                   <FaYoutube className="text-white text-sm" />
                 </a>
-                <a href="#" aria-label="TikTok" className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-800 hover:bg-black transition-colors">
+                <a href="https://www.tiktok.com/@coengagex_?_r=1&_t=ZS-93J0YSkckEx" aria-label="TikTok" className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-800 hover:bg-black transition-colors">
                   <FaTiktok className="text-white text-sm" />
                 </a>
               </div>
