@@ -31,8 +31,12 @@ function Sponsors() {
                 <h2 className="text-2xl  font-bold mb-3">CoEngageX</h2>
                 <h1 className='mb-8 text-4xl lg:text-5xl font-bold text-[#FDB913] leading-tight lg:w-[60%] '>Become a Proud Sponsors of This Experience</h1>
                 <div className="flex  space-x-0 flex-col sm:flex-row md:space-x-4 space-y-0 w-fit gap-5 md:gap-2">
+                    <a href='mailto:Partnership@coengagex.com'>
                         <Button className='bg-[#FDB913] hover:bg-[#ddcb9d] text-sm text-black'>REQUEST SPONSORSHIP DECK</Button>
-                        <Button className='text-[#FDB913] bg-black text-sm hover:bg-gray-800'>REQUEST EXHIBITION DECK</Button>     
+                    </a>
+                    <a href='mailto:Partnership@coengagex.com'>
+                        <Button className='text-[#FDB913] bg-black text-sm hover:bg-gray-800'>REQUEST EXHIBITION DECK</Button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -69,12 +73,12 @@ function Sponsors() {
                 <h1 className="mb-8 text-4xl lg:text-5xl font-bold leading-tight">
                 Join Us in Shaping the Future Of Personal & Career Development
                 </h1>
-                <a href="mailto:Partnership@coengagex.com" target="_blank" rel="noopener noreferrer">
+
+                <a href='mailto:Partnership@coengagex.com'>
                     <Button className="bg-[#FDB913] hover:bg-[#ddcb9d] text-sm text-black">
-                        REQUEST SPONSORSHIP DECK
+                      REQUEST SPONSORSHIP DECK
                     </Button>
                 </a>
-                
             </div>
         </div>
 
