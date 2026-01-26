@@ -62,7 +62,7 @@ const Footer = () => {
 
             {/* Social Media */}
             <div>
-              <div className="flex flex-wrap gap-3">
+              <div className="flex flex-wrap gap-2">
                 <a href="#" aria-label="LinkedIn" className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-800 hover:bg-[#0A66C2] transition-colors">
                   <FaLinkedinIn className="text-white text-sm" />
                 </a>

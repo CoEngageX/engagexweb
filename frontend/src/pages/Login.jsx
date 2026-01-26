@@ -12,7 +12,7 @@ const Login = () => {
     "w-full px-4 border border-gray-600 rounded-lg bg-transparent text-white focus:outline-none placeholder:text-[12px]";
 
   return (
-    <div className="flex items-center justify-center p-4">
+    <div className="flex items-center justify-center p-4 bg-[#252B37]">
       <div className="w-full max-w-lg bg-[#252B37] rounded-xl p-10 min-h-[70vh]">
         <form className="space-y-4">
           <h3 className="text-2xl font-bold text-white">
