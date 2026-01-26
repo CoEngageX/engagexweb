@@ -103,14 +103,22 @@ const Events = () => {
                     </div>
   
                     <div className="flex flex-col gap-2 w-auto">
-                      <a 
-                        href={event.registrationLink} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="bg-[#FDB913] text-black px-4 py-2 rounded-lg font-semibold hover:bg-[#ddcb9d] inline-block text-center"
-                      >
-                        Buy a ticket
-                      </a>
+                      {event.registrationLink ? (
+                        <a
+                          href={event.registrationLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="bg-[#FDB913] text-black px-4 py-2 rounded-lg font-semibold hover:bg-[#ddcb9d] inline-block text-center"
+                        >
+                          Register
+                        </a>
+                      ) : (
+                        <div
+                          className="bg-gray-300 text-gray-600 px-4 py-2 rounded-lg font-semibold text-center cursor-not-allowed"
+                        >
+                          Coming Soon
+                        </div>
+                      )}
                       <button
                         onClick={() => toggleExpand(event.id)}
                         className="text-[#FDB913] px-4 py-2 font-semibold hover:text-black"
