@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import Logo from "/Logo.png";
 import { FaLinkedinIn, FaTwitter, FaInstagram, FaFacebookF, FaYoutube, FaTiktok } from "react-icons/fa";
 
@@ -28,10 +28,10 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold text-md mb-4">COMPANY</h3>
             <ul className="space-y-3 text-sm">
-              <li className="hover:text-[#FDB913] cursor-pointer">About Us</li>
-              <li className="hover:text-[#FDB913] cursor-pointer">Our Mission</li>
-              <li className="hover:text-[#FDB913] cursor-pointer">Our Vision</li>
-              <li className="hover:text-[#FDB913] cursor-pointer">Meet the Founder</li>
+              <li className="hover:text-[#FDB913] cursor-pointer"><Link to="/about#aboutus">About Us</Link></li>
+              <li className="hover:text-[#FDB913] cursor-pointer"><Link to="/about#mission">Our Mission</Link></li>
+              <li className="hover:text-[#FDB913] cursor-pointer"><Link to="/about#vision">Our Vision</Link></li>
+              <li className="hover:text-[#FDB913] cursor-pointer"><Link to="/sponsors#founder">Meet the Founder</Link></li>
             </ul>
           </div>
 
@@ -39,8 +39,8 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold text-md mb-4">EVENTS</h3>
             <ul className="space-y-3 text-sm">
-              <li className="hover:text-[#FDB913] cursor-pointer">Main Event</li>
-              <li className="hover:text-[#FDB913] cursor-pointer">Upcoming Events</li>
+              <li className="hover:text-[#FDB913] cursor-pointer"><Link to="/events#mainevents">Main Event</Link></li>
+              <li className="hover:text-[#FDB913] cursor-pointer"><Link to="/events#otherevents">Upcoming Events</Link></li>
             </ul>
           </div>
 
@@ -48,8 +48,8 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold text-md mb-4">CONNECT</h3>
             <ul className="space-y-3 text-sm">
-              <li className="hover:text-[#FDB913] cursor-pointer">Contact Us</li>
-              <li className="hover:text-[#FDB913] cursor-pointer">Become a Sponsor</li>
+              <li className="hover:text-[#FDB913] cursor-pointer"><Link to="/contact#contact">Contact Us</Link></li>
+              <li className="hover:text-[#FDB913] cursor-pointer"><Link to="/sponsors#sponsorsus">Become a Sponsor</Link></li>
             </ul>
           </div>
 
@@ -57,7 +57,7 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold text-md mb-4">OPPORTUNITIES</h3>
             <ul className="space-y-3 text-sm mb-6">
-              <li className="hover:text-[#FDB913] cursor-pointer">Join Us</li>
+              <li className="hover:text-[#FDB913] cursor-pointer"><Link to="/contact#socialmedia">Join Us</Link></li>
             </ul>
 
             {/* Social Media */}
@@ -100,7 +100,7 @@ const Footer = () => {
                     `text-white font-medium transition-colors px-3 py-1 rounded ${
                       isActive
                         ? 'bg-[#FDB913] !text-black'
-                        : 'hover:bg-[#FDB913] hover:text-black'
+                        : 'hover:bg-[#ddcb9d] hover:text-black'
                     }`
                   }
                 >
