@@ -93,46 +93,56 @@ const Header = () => {
       </div>
 
       {/* Mobile Menu */}
-      {menuOpen && (
-        <div className="md:hidden bg-[#252B37] border-t border-gray-700 ">
-          <nav className="flex flex-col px-6 py-4 space-y-3">
-            {navItems.map((item) => (
-              <NavLink
-                key={item.name}
-                to={item.path}
-                onClick={() => setMenuOpen(false)}
-                className={({ isActive }) =>
-                  `text-white font-medium px-3 py-2 rounded ${
-                    isActive
-                      ? 'bg-[#FDB913] !text-black'
-                      : 'hover:bg-[#ddcb9d] hover:text-black'
-                  }`
-                }
-              >
-                {item.name}
-              </NavLink>
-            ))}
+      <div
+        className={`
+          md:hidden bg-[#252B37] border-t border-gray-700
+          transition-all duration-300 ease-in-out
+          overflow-hidden
+          ${
+            menuOpen
+              ? 'max-h-[500px] opacity-100 translate-y-0'
+              : 'max-h-0 opacity-0 -translate-y-5'
+          }
+        `}
+      >
+        <nav className="flex flex-col px-6 py-4 space-y-3">
+          {navItems.map((item) => (
+            <NavLink
+              key={item.name}
+              to={item.path}
+              onClick={() => setMenuOpen(false)}
+              className={({ isActive }) =>
+                `text-white font-medium px-3 py-2 rounded ${
+                  isActive
+                    ? 'bg-[#FDB913] !text-black'
+                    : 'hover:bg-[#ddcb9d] hover:text-black'
+                }`
+              }
+            >
+              {item.name}
+            </NavLink>
+          ))}
 
-            <div className="pt-4 flex flex-col space-y-3">
-              <NavLink
-                to="/login"
-                onClick={() => setMenuOpen(false)}
-                className={({ isActive }) =>
-                  `rounded-lg transition-colors ${
-                    isActive
-                      ? 'bg-[#FDB913] text-black'
-                      : 'bg-white text-black'
-                  }`
-                }
-              >
-                <Button className="w-full font-semibold py-2">
-                  Log in
-                </Button>
-              </NavLink>
-            </div>
-          </nav>
-        </div>
-      )}
+          <div className="pt-4 flex flex-col space-y-3">
+            <NavLink
+              to="/login"
+              onClick={() => setMenuOpen(false)}
+              className={({ isActive }) =>
+                `rounded-lg transition-colors ${
+                  isActive
+                    ? 'bg-[#FDB913] text-black'
+                    : 'bg-white text-black'
+                }`
+              }
+            >
+              <Button className="w-full font-semibold py-2">
+                Log in
+              </Button>
+            </NavLink>
+          </div>
+        </nav>
+      </div>
+
     </header>
   )
 }

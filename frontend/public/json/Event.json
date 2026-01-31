@@ -12,7 +12,7 @@
       ],
       "date": "March 28th, 2026",
       "theme": "People. Culture. Leadership. Growth.",
-      "coverImage": "/Fliers/Flier.png",
+      "coverImage": "/Fliers/Frame 943.png",
       "registrationLink": "https://luma.com/f3fpygbt"
     },
     {
@@ -27,8 +27,8 @@
       ],
       "date": "June 18th, 2026",
       "theme": "Innovation. Agility. Growth.",
-      "coverImage": "/Fliers/Flier.png",
-      "registrationLink": "https://luma.com/f3fpygbt"
+      "coverImage": "/Fliers/Frame 833 (1).png",
+      "registrationLink": ""
     },
     {
       "id": 3,
@@ -42,8 +42,7 @@
       ],
       "date": "September 10th, 2026",
       "theme": "Data. Insight. Impact.",
-      "coverImage": "/Fliers/Flier.png",
-      "registrationLink": "https://luma.com/f3fpygbt"
+      "coverImage": "/Fliers/Frame 833 (2).png"
     },
     {
       "id": 4,
@@ -57,248 +56,7 @@
       ],
       "date": "December 3rd, 2026",
       "theme": "Vision. Resilience. Leadership.",
-      "coverImage": "/Fliers/Flier.png",
-      "registrationLink": "https://luma.com/f3fpygbt"
-    },
-    {
-      "id": 5,
-      "eventName": "CoengageX Talent Experience",
-      "edition": "Special Edition",
-      "description": "Designing meaningful employee experiences that drive retention and engagement.",
-      "coreSessions": [
-        "Employee Experience Design",
-        "Employer Branding",
-        "Talent Retention Strategies"
-      ],
-      "date": "February 14th, 2026",
-      "theme": "Experience. Engagement. Retention.",
-      "coverImage": "/Fliers/Flier.png",
-      "registrationLink": "https://luma.com/f3fpygbt"
-    },
-    {
-      "id": 6,
-      "eventName": "CoengageX AI & Automation",
-      "edition": "Tech Edition",
-      "description": "Understanding how AI and automation are reshaping HR and business operations.",
-      "coreSessions": [
-        "AI in HR",
-        "Process Automation",
-        "Ethical AI Practices"
-      ],
-      "date": "April 22nd, 2026",
-      "theme": "AI. Efficiency. Transformation.",
-      "coverImage": "/Fliers/Flier.png",
-      "registrationLink": "https://luma.com/f3fpygbt"
-    },
-    {
-      "id": 7,
-      "eventName": "CoengageX Startup HR Playbook",
-      "edition": "Founders Edition",
-      "description": "Practical HR and leadership strategies for startup founders and early-stage teams.",
-      "coreSessions": [
-        "Building Early Teams",
-        "Startup Culture",
-        "Scaling People Operations"
-      ],
-      "date": "May 9th, 2026",
-      "theme": "Startups. Culture. Scale.",
-      "coverImage": "/Fliers/Flier.png",
-      "registrationLink": "https://luma.com/f3fpygbt"
-    },
-    {
-      "id": 8,
-      "eventName": "CoengageX Startup HR Playbook",
-      "edition": "Founders Edition",
-      "description": "Practical HR and leadership strategies for startup founders and early-stage teams.",
-      "coreSessions": [
-        "Building Early Teams",
-        "Startup Culture",
-        "Scaling People Operations"
-      ],
-      "date": "May 9th, 2026",
-      "theme": "Startups. Culture. Scale.",
-      "coverImage": "/Fliers/Flier.png",
-      "registrationLink": "https://luma.com/f3fpygbt"
-    },
-    {
-      "id": 9,
-      "eventName": "CoengageX Women in Leadership",
-      "edition": "Impact Edition",
-      "description": "Celebrating and empowering women leaders across business and HR.",
-      "coreSessions": [
-        "Women Leadership",
-        "Career Advancement",
-        "Inclusive Workplaces"
-      ],
-      "date": "July 8th, 2026",
-      "theme": "Equity. Empowerment. Leadership.",
-      "coverImage": "/Fliers/Flier.png",
-      "registrationLink": "https://luma.com/f3fpygbt"
-    },
-    {
-      "id": 10,
-      "eventName": "CoengageX Culture & Values",
-      "edition": "Culture Edition",
-      "description": "Aligning organizational values with performance and engagement.",
-      "coreSessions": [
-        "Company Values",
-        "Culture Building",
-        "Behavioral Leadership"
-      ],
-      "date": "August 16th, 2026",
-      "theme": "Values. Behavior. Performance.",
-      "coverImage": "/Fliers/Flier.png",
-      "registrationLink": "https://luma.com/f3fpygbt"
-    },
-    {
-      "id": 11,
-      "eventName": "CoengageX Performance Excellence",
-      "edition": "Business Edition",
-      "description": "Driving high performance through leadership, systems, and accountability.",
-      "coreSessions": [
-        "Performance Management",
-        "OKRs & KPIs",
-        "Leadership Accountability"
-      ],
-      "date": "October 5th, 2026",
-      "theme": "Performance. Accountability. Results.",
-      "coverImage": "/Fliers/Flier.png",
-      "registrationLink": "https://luma.com/f3fpygbt"
-    },
-    {
-      "id": 12,
-      "eventName": "CoengageX Learning & Development",
-      "edition": "Growth Edition",
-      "description": "Building future-ready skills and learning cultures.",
-      "coreSessions": [
-        "Upskilling & Reskilling",
-        "Learning Technologies",
-        "Career Pathing"
-      ],
-      "date": "November 11th, 2026",
-      "theme": "Learning. Skills. Growth.",
-      "coverImage": "/Fliers/Flier.png",
-      "registrationLink": "https://luma.com/f3fpygbt"
-    },
-    {
-      "id": 13,
-      "eventName": "CoengageX Remote Work Summit",
-      "edition": "Global Edition",
-      "description": "Best practices for managing and leading distributed teams.",
-      "coreSessions": [
-        "Remote Leadership",
-        "Hybrid Work Models",
-        "Global Collaboration"
-      ],
-      "date": "January 20th, 2026",
-      "theme": "Flexibility. Trust. Results.",
-      "coverImage": "/Fliers/Flier.png",
-      "registrationLink": "https://luma.com/f3fpygbt"
-    },
-    {
-      "id": 14,
-      "eventName": "CoengageX Employee Wellbeing",
-      "edition": "Wellness Edition",
-      "description": "Creating sustainable workplaces that prioritize mental and physical wellbeing.",
-      "coreSessions": [
-        "Workplace Wellness",
-        "Burnout Prevention",
-        "Psychological Safety"
-      ],
-      "date": "February 27th, 2026",
-      "theme": "Wellbeing. Balance. Sustainability.",
-      "coverImage": "/Fliers/Flier.png",
-      "registrationLink": "https://luma.com/f3fpygbt"
-    },
-    {
-      "id": 15,
-      "eventName": "CoengageX HR Tech Expo",
-      "edition": "Innovation Edition",
-      "description": "Showcasing the latest tools and platforms transforming HR.",
-      "coreSessions": [
-        "HR Technology Trends",
-        "System Integration",
-        "Digital Adoption"
-      ],
-      "date": "June 30th, 2026",
-      "theme": "Technology. Innovation. HR.",
-      "coverImage": "/Fliers/Flier.png",
-      "registrationLink": "https://luma.com/f3fpygbt"
-    },
-    {
-      "id": 16,
-      "eventName": "CoengageX Diversity & Inclusion",
-      "edition": "Equity Edition",
-      "description": "Building inclusive cultures that foster belonging and performance.",
-      "coreSessions": [
-        "Diversity Strategies",
-        "Inclusive Leadership",
-        "Bias Awareness"
-      ],
-      "date": "July 25th, 2026",
-      "theme": "Diversity. Inclusion. Belonging.",
-      "coverImage": "/Fliers/Flier.png",
-      "registrationLink": "https://luma.com/f3fpygbt"
-    },
-    {
-      "id": 17,
-      "eventName": "CoengageX Change Management",
-      "edition": "Transformation Edition",
-      "description": "Leading people effectively through organizational change.",
-      "coreSessions": [
-        "Change Leadership",
-        "Communication Strategy",
-        "Organizational Alignment"
-      ],
-      "date": "September 22nd, 2026",
-      "theme": "Change. Alignment. Success.",
-      "coverImage": "/Fliers/Flier.png",
-      "registrationLink": "https://luma.com/f3fpygbt"
-    },
-    {
-      "id": 18,
-      "eventName": "CoengageX Strategic HR",
-      "edition": "Executive Edition",
-      "description": "Positioning HR as a strategic driver of business outcomes.",
-      "coreSessions": [
-        "HR as Business Partner",
-        "Workforce Strategy",
-        "Executive Influence"
-      ],
-      "date": "October 18th, 2026",
-      "theme": "Strategy. Influence. Impact.",
-      "coverImage": "/Fliers/Flier.png",
-      "registrationLink": "https://luma.com/f3fpygbt"
-    },
-    {
-      "id": 19,
-      "eventName": "CoengageX Employer Branding",
-      "edition": "Brand Edition",
-      "description": "Crafting compelling employer brands to attract top talent.",
-      "coreSessions": [
-        "Employer Brand Strategy",
-        "Talent Marketing",
-        "Candidate Experience"
-      ],
-      "date": "November 28th, 2026",
-      "theme": "Brand. Talent. Reputation.",
-      "coverImage": "/Fliers/Flier.png",
-      "registrationLink": "https://luma.com/f3fpygbt"
-    },
-    {
-      "id": 20,
-      "eventName": "CoengageX Future Leaders",
-      "edition": "NextGen Edition",
-      "description": "Developing the next generation of leaders.",
-      "coreSessions": [
-        "Leadership Development",
-        "Mentorship",
-        "Career Acceleration"
-      ],
-      "date": "December 15th, 2026",
-      "theme": "Future. Leadership. Potential.",
-      "coverImage": "/Fliers/Flier.png",
-      "registrationLink": "https://luma.com/f3fpygbt"
+      "coverImage": "/Fliers/Frame 833 (3).png"
     }
   ]
 }
