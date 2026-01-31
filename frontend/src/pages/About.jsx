@@ -3,25 +3,25 @@ const aboutus =[
   {
     "id": 1,
     "topic": "Who We Are",
-    "image": "https://randomuser.me/api/portraits/women/11.jpg",
+    "image": "/Serviceicons/Frame 940.png",
     "content": "CoengageX is a people-first growth platform that connects professionals, students, and businesses through meaningful events, trusted opportunities, and career-focused experiences. We exist to empower individuals, strengthen organizations, and build communities where people and businesses grow together.",
   },
   {
     "id": 2,
     "topic": "Why Us",
-    "image": "https://randomuser.me/api/portraits/men/12.jpg",
+    "image": "/Serviceicons/Frame 941.png",
     "content": "CoengageX stands out because we put people first. We create trusted, high-impact connections through verified opportunities, curated events, and a supportive community that prioritizes real growth, meaningful collaboration, and long-term value for both individuals and businesses.",
   },
   {
     "id": 3,
     "topic": "Our Mission",
-    "image": "https://randomuser.me/api/portraits/women/13.jpg",
+    "image": "/Serviceicons/Frame 938.png",
     "content": "Our MissionOur mission is to empower professionals, students, and businesses by creating trusted opportunities, meaningful connections, and growth-driven experiences that support people-first success and long-term impact.",
   },
   {
     "id": 4,
     "topic": "Our Vision",
-    "image": "https://randomuser.me/api/portraits/men/14.jpg",
+    "image": "/Serviceicons/Frame 937.png",
     "content": "Our vision is to build a leading people-first platform that shapes the future of work by connecting talent, opportunity, and innovation to drive sustainable growth for individuals and organizations.",
   }
 ]
@@ -46,11 +46,11 @@ const About = () => {
       `}
     >
       {/* Image */}
-      <div className="flex-1">
+      <div className="flex-1 flex justify-center items-center">
         <img
           src={story.image}
           alt={story.topic}
-          className="w-full h-64 object-cover rounded-2xl shadow-lg"
+          className="w-[70%] h-64 rounded-2xl shadow-lg"
         />
       </div>
 

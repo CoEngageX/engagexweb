@@ -89,9 +89,9 @@ function Sponsors() {
                 <div className="order-1 md:order-2">
                     <div className="rounded-xl">
                         <img
-                        src="/Fliers/Flier.png"
+                        src="/Serviceicons/Frame 936.png"
                         alt="CoengageX Event"
-                        className="w-full h-auto"
+                        className="w-full h-auto max-h-[750px] object-cover rounded-lg shadow-md"
                         />
                     </div>
                 </div>
@@ -130,12 +130,12 @@ function Sponsors() {
 
                     <div className="flex gap-4">
                         <img
-                        src="/Fliers/Flier.png"
+                        src="/Serviceicons/Frame 933.png"
                         alt="Event highlight"
                         className="w-[45%] h-auto object-cover rounded-lg shadow-md"
                         />
                         <img
-                        src="/Fliers/Flier.png"
+                        src="/Serviceicons/Frame 936.png"
                         alt="Event highlight"
                         className="w-[45%] h-auto object-cover rounded-lg shadow-md"
                         />

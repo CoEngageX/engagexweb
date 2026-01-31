@@ -50,7 +50,7 @@ const Events = () => {
             <img
               src={featuredEvent.coverImage}
               alt={featuredEvent.eventName}
-              className="w-full h-auto max-h-[400px] rounded-lg"
+              className="w-full h-auto max-h-[400px] rounded-lg "
             />
           </div>
 
@@ -65,9 +65,14 @@ const Events = () => {
             </ol>
             <p className="text-sm font-bold">Time: {featuredEvent.date}</p>
             <p className="text-sm font-bold">Theme: {featuredEvent.theme}</p>
-           <a href="https://luma.com/f3fpygbt" target="_blank" rel="noopener noreferrer">
-            <button className="mt-4 bg-[#FDB913] text-black px-4 py-2 rounded-lg font-semibold hover:bg-[#ddcb9d] w-[100%] md:w-[70%]">Preregister Now</button>
-           </a>
+            <div className="grid-cols-1 sm:grid-cols-2 grid gap-4 mt-4 w-full">
+              <a href="https://luma.com/f3fpygbt" target="_blank" rel="noopener noreferrer">
+                <button className="mt-4 bg-[#FDB913] text-black px-4 py-2 rounded-lg font-semibold hover:bg-[#ddcb9d] w-full">Preregister Now</button>
+              </a>
+              <a href="mailto:Partnership@coengagex.com" target="_blank" rel="noopener noreferrer">
+                <button className="mt-4 text-[#FDB913] bg-black hover:bg-gray-700 px-4 py-2 rounded-lg font-semibold w-full">Request Sponsorsip Desk</button>
+              </a>
+          </div>
           </div>
         </div>
       </div>
@@ -89,8 +94,7 @@ const Events = () => {
                   <img
                     src={event.coverImage}
                     alt={event.eventName}
-                    className="sm:w-32 sm:h-24 h-64 w-64
-                     object-cover rounded-lg flex-shrink-0"
+                    className="sm:w-32 sm:h-32 h-64 w-64 rounded-lg flex-shrink-0"
                   />
 
                   <div className="flex-1 flex flex-col sm:flex-row sm:justify-between gap-4 w-full">

@@ -12,7 +12,7 @@ const EventHighlights = () => {
     ],
     date: "March 28th, 2026",
     theme: "People. Culture. Leadership. Growth.",
-    coverImage: "/Fliers/Flier.png"
+    coverImage: "/Fliers/Frame 943.png"
   }
 
   return (
@@ -40,9 +40,14 @@ const EventHighlights = () => {
             </ol>
             <p className="text-sm font-bold">Time: {event.date}</p>
             <p className="text-sm font-bold">Theme: {event.theme}</p>
-           <a href="https://luma.com/f3fpygbt" target="_blank" rel="noopener noreferrer">
-            <button className="mt-4 bg-[#FDB913] text-black px-4 py-2 rounded-lg font-semibold hover:bg-[#ddcb9d] w-[100%] md:w-[70%]">Preregister Now</button>
-           </a>
+            <div className="grid-cols-1 sm:grid-cols-2 grid gap-4 mt-4 w-full">
+              <a href="https://luma.com/f3fpygbt" target="_blank" rel="noopener noreferrer">
+                <button className="mt-4 bg-[#FDB913] text-black px-4 py-2 rounded-lg font-semibold hover:bg-[#ddcb9d] w-full">Preregister Now</button>
+              </a>
+              <a href="mailto:Partnership@coengagex.com" target="_blank" rel="noopener noreferrer">
+                <button className="mt-4 text-[#FDB913] bg-black hover:bg-gray-800 px-4 py-2 rounded-lg font-semibold w-full">Request Sponsorsip Desk</button>
+              </a>
+            </div>
           </div>
 
         </div>

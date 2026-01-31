@@ -12,7 +12,7 @@
       ],
       "date": "March 28th, 2026",
       "theme": "People. Culture. Leadership. Growth.",
-      "coverImage": "/Fliers/Flier.png",
+      "coverImage": "/Fliers/Frame 943.png",
       "registrationLink": "https://luma.com/f3fpygbt"
     },
     {
@@ -27,7 +27,7 @@
       ],
       "date": "June 18th, 2026",
       "theme": "Innovation. Agility. Growth.",
-      "coverImage": "/Fliers/Flier.png",
+      "coverImage": "/Fliers/Frame 833 (1).png",
       "registrationLink": ""
     },
     {
@@ -42,7 +42,7 @@
       ],
       "date": "September 10th, 2026",
       "theme": "Data. Insight. Impact.",
-      "coverImage": "/Fliers/Flier.png"
+      "coverImage": "/Fliers/Frame 833 (2).png"
     },
     {
       "id": 4,
@@ -56,22 +56,7 @@
       ],
       "date": "December 3rd, 2026",
       "theme": "Vision. Resilience. Leadership.",
-      "coverImage": "/Fliers/Flier.png"
-    },
-    {
-      "id": 5,
-      "eventName": "CoengageX Talent Experience",
-      "edition": "Special Edition",
-      "description": "Designing meaningful employee experiences that drive retention and engagement.",
-      "coreSessions": [
-        "Employee Experience Design",
-        "Employer Branding",
-        "Talent Retention Strategies"
-      ],
-      "date": "February 14th, 2026",
-      "theme": "Experience. Engagement. Retention.",
-      "coverImage": "/Fliers/Flier.png",
-      "registrationLink": ""
+      "coverImage": "/Fliers/Frame 833 (3).png"
     }
   ]
 }
