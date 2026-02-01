@@ -68,7 +68,7 @@ function Contact() {
             })}
           </div>
         </div>
-        <div className="flex flex-wrap gap-2" id="socialmedia">
+        <div className="flex flex-wrap sm:gap-3" id="socialmedia">
           <a
             href="#"
             aria-label="LinkedIn"
