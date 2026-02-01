@@ -17,44 +17,44 @@
     },
     {
       "id": 2,
-      "eventName": "CoengageX Workforce Innovation",
+      "eventName": "Customer Engagement & Cx summit",
       "edition": "Q2 Edition",
-      "description": "Exploring modern workforce models, innovation, and leadership strategies for scaling organizations.",
+      "description": "An immersive summit dedicated to enhancing customer experience and engagement strategies in a rapidly evolving market.",
       "coreSessions": [
-        "Future of Work",
-        "Leadership Agility",
-        "Digital HR Transformation"
+        "Customer Journey Mapping",
+        "Omni-Channel Engagement",
+        "Personalization & Loyalty Programs"
       ],
-      "date": "June 18th, 2026",
+      "date": "coming soon ....",
       "theme": "Innovation. Agility. Growth.",
       "coverImage": "/Fliers/Frame 833 (1).png",
       "registrationLink": ""
     },
     {
       "id": 3,
-      "eventName": "CoengageX People Analytics Summit",
+      "eventName": "Tech & Innovation summit",
       "edition": "Q3 Edition",
-      "description": "A data-driven summit focused on analytics, insights, and evidence-based people decisions.",
+      "description": "A cutting-edge forum exploring the intersection of technology, innovation, and business transformation.",
       "coreSessions": [
-        "HR Analytics",
-        "Data-Driven Culture",
-        "Predictive Workforce Planning"
+        "Emerging Technologies",
+        "Digital Transformation",
+        "Data-Driven Decision Making"
       ],
-      "date": "September 10th, 2026",
+      "date": "coming soon ....",
       "theme": "Data. Insight. Impact.",
       "coverImage": "/Fliers/Frame 833 (2).png"
     },
     {
       "id": 4,
-      "eventName": "CoengageX Leadership Forum",
+      "eventName": "Business summit & Award night",
       "edition": "Q4 Edition",
-      "description": "A leadership-focused forum for executives shaping resilient and inclusive organizations.",
+      "description": "A prestigious event celebrating business excellence and visionary leadership in the corporate world.",
       "coreSessions": [
-        "Executive Leadership",
-        "Change Management",
-        "Inclusive Growth"
+        "Leadership Excellence",
+        "Sustainable Business Practices",
+        "Future of Work"
       ],
-      "date": "December 3rd, 2026",
+      "date": "coming soon ....",
       "theme": "Vision. Resilience. Leadership.",
       "coverImage": "/Fliers/Frame 833 (3).png"
     }

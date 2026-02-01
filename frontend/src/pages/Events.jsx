@@ -80,7 +80,7 @@ const Events = () => {
                 </button>
               </a>
               <a
-                href="mailto:Partnership@coengagex.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=partnership@coengagex.com&su=Partnership Inquiry&body=Hello CoEngageX,%0D%0AI am interested in partnering with you."
                 target="_blank"
                 rel="noopener noreferrer"
               >

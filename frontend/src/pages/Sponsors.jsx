@@ -1,4 +1,4 @@
-import useScrollToHash from "../hooks/useLocation";
+  import useScrollToHash from "../hooks/useLocation";
 import Button from "../components/common/Button";
 
 function Sponsors() {
