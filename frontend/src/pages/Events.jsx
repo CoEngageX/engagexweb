@@ -76,7 +76,7 @@ const Events = () => {
                 rel="noopener noreferrer"
               >
                 <button className="mt-4 bg-[#FDB913] text-black px-4 py-2 rounded-lg font-semibold hover:bg-[#ddcb9d] w-full">
-                  Preregister Now
+                  Register Now
                 </button>
               </a>
               <a
