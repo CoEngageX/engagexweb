@@ -67,7 +67,7 @@ const Events = () => {
                 <li key={index}>{session}</li>
               ))}
             </ol>
-            <p className="text-sm font-bold">Time: {featuredEvent.date}</p>
+            <p className="text-sm font-bold">Date: {featuredEvent.date}</p>
             <p className="text-sm font-bold">Theme: {featuredEvent.theme}</p>
             <div className="grid-cols-1 sm:grid-cols-2 grid gap-4 mt-4 w-full">
               <a
@@ -159,7 +159,7 @@ const Events = () => {
                         <li key={index}>{session}</li>
                       ))}
                     </ol>
-                    <p className="text-sm font-bold mt-2">Time: {event.date}</p>
+                    <p className="text-sm font-bold mt-2">Date: {event.date}</p>
                     <p className="text-sm font-bold">Theme: {event.theme}</p>
                   </div>
                 )}

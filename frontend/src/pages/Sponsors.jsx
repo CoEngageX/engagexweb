@@ -152,7 +152,7 @@ function Sponsors() {
 
                   <div>
                     <h4 className="font-semibold text-lg">Royhan Ekemode</h4>
-                    <p className="text-sm text-gray-500">Founder</p>
+                    <p className="text-sm text-gray-500">Project Lead</p>
                   </div>
 
                   <a
