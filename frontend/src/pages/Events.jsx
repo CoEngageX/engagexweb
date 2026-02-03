@@ -67,7 +67,7 @@ const Events = () => {
                 <li key={index}>{session}</li>
               ))}
             </ol>
-            <p className="text-sm font-bold">Time: {featuredEvent.date}</p>
+            <p className="text-sm font-bold">Date: {featuredEvent.date}</p>
             <p className="text-sm font-bold">Theme: {featuredEvent.theme}</p>
             <div className="grid-cols-1 sm:grid-cols-2 grid gap-4 mt-4 w-full">
               <a
@@ -76,16 +76,16 @@ const Events = () => {
                 rel="noopener noreferrer"
               >
                 <button className="mt-4 bg-[#FDB913] text-black px-4 py-2 rounded-lg font-semibold hover:bg-[#ddcb9d] w-full">
-                  Preregister Now
+                  Register Now
                 </button>
               </a>
               <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=partnership@coengagex.com&su=Partnership Inquiry&body=Hello CoEngageX,%0D%0AI am interested in partnering with you."
+                href="mailto:partnership@coengagex.com?subject=Request%20for%20CoengageX%20HR%20%26%20Business%20Sponsorship%20Deck"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <button className="mt-4 text-[#FDB913] bg-black hover:bg-gray-700 hover:text-white px-4 py-2 rounded-lg font-semibold w-full">
-                  Request Sponsorsip Desk
+                  Request Sponsorship Desk
                 </button>
               </a>
             </div>
@@ -159,7 +159,7 @@ const Events = () => {
                         <li key={index}>{session}</li>
                       ))}
                     </ol>
-                    <p className="text-sm font-bold mt-2">Time: {event.date}</p>
+                    <p className="text-sm font-bold mt-2">Date: {event.date}</p>
                     <p className="text-sm font-bold">Theme: {event.theme}</p>
                   </div>
                 )}

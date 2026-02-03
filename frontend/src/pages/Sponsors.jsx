@@ -1,6 +1,6 @@
   import useScrollToHash from "../hooks/useLocation";
 import Button from "../components/common/Button";
-
+import { FaLinkedinIn} from "react-icons/fa";
 function Sponsors() {
   useScrollToHash();
 
@@ -101,7 +101,7 @@ function Sponsors() {
               <img
                 src="/Serviceicons/Frame 936.png"
                 alt="CoengageX Event"
-                className="w-full h-auto max-h-[750px] object-cover rounded-lg shadow-md"
+                className="w-full h-auto max-h-[700px] object-cover rounded-lg shadow-md"
               />
             </div>
           </div>
@@ -139,18 +139,56 @@ function Sponsors() {
               </p>
             </div>
 
-            <div className="flex gap-4">
-              <img
-                src="/Serviceicons/Frame 933.png"
-                alt="Event highlight"
-                className="w-[45%] h-auto object-cover rounded-lg shadow-md"
-              />
-              <img
-                src="/Serviceicons/Frame 936.png"
-                alt="Event highlight"
-                className="w-[45%] h-auto object-cover rounded-lg shadow-md"
-              />
-            </div>
+            <div className="flex flex-wrap justify-center gap-6">
+
+                {/* Card 1 */}
+                <div className="bg-white rounded-xl shadow-md p-4 w-64 text-center space-y-3">
+
+                  <img
+                    src="/Serviceicons/photo_2026-02-03_09-57-22.jpg"
+                    alt="Team Member"
+                    className="w-full h-48  rounded-lg"
+                  />
+
+                  <div>
+                    <h4 className="font-semibold text-lg">Royhan Ekemode</h4>
+                    <p className="text-sm text-gray-500">Project Lead</p>
+                  </div>
+
+                  <a
+                    href="https://www.linkedin.com/in/royhan-ekemode-b6a76a244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                    aria-label="LinkedIn"
+                    className="inline-flex items-center justify-center w-9 h-9 rounded-full bg-gray-800 hover:bg-[#0A66C2] transition"
+                  >
+                    <FaLinkedinIn className="text-white text-sm" />
+                  </a>
+                </div>
+
+
+                {/* Card 2 */}
+                <div className="bg-white rounded-xl shadow-md p-4 w-64 text-center space-y-3">
+
+                  <img
+                    src="/Serviceicons/Frame 936.png"
+                    alt="Team Member"
+                    className="w-full h-48 object-cover rounded-lg"
+                  />
+
+                  <div>
+                    <h4 className="font-semibold text-lg">Jane Smith</h4>
+                    <p className="text-sm text-gray-500">Project Manager</p>
+                  </div>
+
+                  <a
+                    href="#"
+                    aria-label="LinkedIn"
+                    className="inline-flex items-center justify-center w-9 h-9 rounded-full bg-gray-800 hover:bg-[#0A66C2] transition"
+                  >
+                    <FaLinkedinIn className="text-white text-sm" />
+                  </a>
+                </div>
+
+              </div>
           </div>
         </div>
       </div>
