@@ -10,7 +10,7 @@ const EventHighlights = () => {
       "AI in HR & System Efficiency",
       "Business Strategy & Leadership"
     ],
-    date: "March 28th, 2026",
+    date: "April 25th, 2026 (9:00 AM)",
     theme: "People. Culture. Leadership. Growth.",
     coverImage: "/Fliers/Frame 943.png"
   }
@@ -38,7 +38,7 @@ const EventHighlights = () => {
                 <li key={index}>{session}</li>
               ))}
             </ol>
-            <p className="text-sm font-bold">Time: {event.date}</p>
+            <p className="text-sm font-bold">Date: {event.date}</p>
             <p className="text-sm font-bold">Theme: {event.theme}</p>
             <div className="grid-cols-1 sm:grid-cols-2 grid gap-4 mt-4 w-full">
               <a href="https://luma.com/f3fpygbt" target="_blank" rel="noopener noreferrer">

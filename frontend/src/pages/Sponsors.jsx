@@ -169,18 +169,18 @@ function Sponsors() {
                 <div className="bg-white rounded-xl shadow-md p-4 w-64 text-center space-y-3">
 
                   <img
-                    src="/Serviceicons/Frame 936.png"
+                    src="/Serviceicons/photo_2026-02-12_02-32-23.jpg"
                     alt="Team Member"
                     className="w-full h-48 object-cover rounded-lg"
                   />
 
                   <div>
-                    <h4 className="font-semibold text-lg">Jane Smith</h4>
+                    <h4 className="font-semibold text-lg">Oluwatofunmi Ayo</h4>
                     <p className="text-sm text-gray-500">Project Manager</p>
                   </div>
 
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/oluwatofunmi-ayo?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                     aria-label="LinkedIn"
                     className="inline-flex items-center justify-center w-9 h-9 rounded-full bg-gray-800 hover:bg-[#0A66C2] transition"
                   >
