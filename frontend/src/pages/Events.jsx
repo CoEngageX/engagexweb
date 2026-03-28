@@ -52,7 +52,7 @@ const Events = () => {
             <img
               src={featuredEvent.coverImage}
               alt={featuredEvent.eventName}
-              className="w-full h-auto max-h-[400px] rounded-lg "
+              className="w-full h-auto max-h-[450px] rounded-md "
             />
           </div>
 
@@ -60,7 +60,7 @@ const Events = () => {
             <h3 className="text-xl font-bold mb-2">
               {featuredEvent.eventName}
             </h3>
-            <p className=" mb-4 max-w-md">{featuredEvent.description}</p>
+            <p className=" mb-4 md:max-w-md">{featuredEvent.description}</p>
             <h4 className="font-bold mb-2">Core Sessions:</h4>
             <ol className="list-decimal list-inside mb-4">
               {featuredEvent.coreSessions.map((session, index) => (

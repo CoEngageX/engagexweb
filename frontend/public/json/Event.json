@@ -1,22 +1,37 @@
 {
   "events": [
-    {
+     {
       "id": 1,
       "eventName": "CoengageX HR & Business",
       "edition": "Q1 Edition",
-      "description": "A transformative event empowering HR leaders and business strategists with insights that drive people and business growth.",
+      "description": "Business Brunch & Talent Connect is a dynamic networking experience that brings together professionals, entrepreneurs, and emerging talent in a relaxed yet purposeful setting. Designed to foster meaningful connections, the event blends insightful business conversations with opportunities for collaboration, recruitment, and growth.",
+      "coreSessions": [
+        "Industry Insights & Growth Strategies",
+        "Talent Showcase & Pitch Session",
+        "Networking & Collaboration Lounge"
+      ],
+      "date": "April 25th, 2026 (9:00 AM)",
+      "theme": "People. Strategy. Growth.",
+      "coverImage": "/Fliers/photo_2026-03-25_05-09-34.jpg",
+      "registrationLink": "https://luma.com/f3fpygbt"
+    },
+    {
+      "id": 2,
+      "eventName": "CoengageX HR & Business",
+      "edition": "Q1 Edition",
+      "description": "Join HR leaders, business strategists, founders, and workplace innovators for a transformative Q1 edition of CoEngageX. ",
       "coreSessions": [
         "Employee Engagement & Talent Culture",
         "AI in HR & System Efficiency",
         "Business Strategy & Leadership"
       ],
-      "date": "April 25th, 2026 (9:00 AM)",
+      "date": "coming soon ....",
       "theme": "People. Culture. Leadership. Growth.",
       "coverImage": "/Fliers/Frame 943.png",
-      "registrationLink": "https://luma.com/f3fpygbt"
+      "registrationLink": ""
     },
     {
-      "id": 2,
+      "id": 3,
       "eventName": "Customer Engagement & Cx summit",
       "edition": "Q2 Edition",
       "description": "An immersive summit dedicated to enhancing customer experience and engagement strategies in a rapidly evolving market.",
@@ -31,7 +46,7 @@
       "registrationLink": ""
     },
     {
-      "id": 3,
+      "id": 4,
       "eventName": "Tech & Innovation summit",
       "edition": "Q3 Edition",
       "description": "A cutting-edge forum exploring the intersection of technology, innovation, and business transformation.",
@@ -45,7 +60,7 @@
       "coverImage": "/Fliers/Frame 833 (2).png"
     },
     {
-      "id": 4,
+      "id": 5,
       "eventName": "Business summit & Award night",
       "edition": "Q4 Edition",
       "description": "A prestigious event celebrating business excellence and visionary leadership in the corporate world.",
