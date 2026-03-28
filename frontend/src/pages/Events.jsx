@@ -71,7 +71,7 @@ const Events = () => {
             <p className="text-sm font-bold">Theme: {featuredEvent.theme}</p>
             <div className="grid-cols-1 sm:grid-cols-2 grid gap-4 mt-4 w-full">
               <a
-                href="https://luma.com/f3fpygbt"
+                href={featuredEvent.registrationLink}
                 target="_blank"
                 rel="noopener noreferrer"
               >
