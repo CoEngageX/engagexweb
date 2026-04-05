@@ -1,6 +1,61 @@
 import { useEffect, useState } from "react";
 import useScrollToHash from "../hooks/useLocation";
 import axios from "axios";
+import Skeleton from "../components/common/Skeleton";
+
+const EventsSkeleton = () => {
+  return (
+    <div className="max-w-7xl mx-auto px-4 py-12 space-y-16">
+      <Skeleton className="h-10 w-3/4 md:w-1/2 mx-auto mb-8" />
+
+      {/* featured event skeleton */}
+      <div className="border border-gray-300 p-3 rounded-lg space-y-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-20 gap-10 items-center">
+          <Skeleton className="w-full h-[300px] md:h-[450px] rounded-md" />
+          <div className="flex-1 space-y-4">
+            <Skeleton className="h-8 w-3/4" />
+            <Skeleton className="h-4 w-full" />
+            <Skeleton className="h-4 w-full" />
+            <Skeleton className="h-4 w-2/3" />
+            <div className="space-y-2">
+              <Skeleton className="h-6 w-1/4" />
+              <Skeleton className="h-4 w-1/2" />
+              <Skeleton className="h-4 w-1/2" />
+              <Skeleton className="h-4 w-1/2" />
+            </div>
+            <div className="flex flex-col sm:flex-row gap-4 mt-4">
+              <Skeleton className="h-10 w-full sm:w-1/2" />
+              <Skeleton className="h-10 w-full sm:w-1/2" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* other events skeleton */}
+      <div className="space-y-6">
+        <Skeleton className="h-8 w-32" />
+        {[1, 2, 3].map((i) => (
+          <div key={i} className="border border-gray-300 rounded-lg p-4">
+            <div className="flex sm:flex-row flex-col gap-4 items-center">
+              <Skeleton className="sm:w-32 sm:h-32 h-64 w-64 rounded-lg flex-shrink-0" />
+              <div className="flex-1 flex flex-col sm:flex-row sm:justify-between gap-4 w-full">
+                <div className="flex-1 space-y-2">
+                  <Skeleton className="h-6 w-1/2" />
+                  <Skeleton className="h-4 w-full" />
+                  <Skeleton className="h-4 w-3/4" />
+                </div>
+                <div className="flex flex-col gap-2 w-full sm:w-32">
+                  <Skeleton className="h-10 w-full" />
+                  <Skeleton className="h-6 w-full" />
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
 
 const Events = () => {
   useScrollToHash();
@@ -24,11 +79,7 @@ const Events = () => {
   }, []);
 
   if (loading) {
-    return (
-      <div className="max-w-7xl mx-auto px-4 py-20 text-center">
-        Loading events...
-      </div>
-    );
+    return <EventsSkeleton />;
   }
 
   if (!featuredEvent) return null;
